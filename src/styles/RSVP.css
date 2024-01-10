@@ -1,0 +1,51 @@
+.RSVPBG {
+  background: linear-gradient(rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.2));
+}
+.bd {
+  border-style: double !important;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+.bd-sm {
+  border-style: double !important;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+.rsvpForm {
+  border-style: double !important;
+  background-color: transparent;
+}
+.input {
+  border: 0 !important;
+}
+.input:focus {
+  box-shadow: 0 0 0 0.25rem rgb(226, 140, 140) !important;
+}
+.form-check-input {
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: rgb(226, 140, 140) !important;
+  border-color: rgb(226, 140, 140) !important;
+  box-shadow: 0 0 0 0.5px rgb(226, 140, 140) !important;
+}
+.map{
+  border: 3px solid rgb(161, 156, 156);
+  border-style: double!important;
+}
+@media screen and (max-width: 425px) {
+  .bd {
+    width: 90%;
+  }
+  .bd-sm {
+    width: 90%;
+  }
+}

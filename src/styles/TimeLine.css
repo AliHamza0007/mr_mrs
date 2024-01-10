@@ -1,0 +1,38 @@
+.flowerLeft,
+.flowerRight {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+  bottom: 5%;
+}
+.flowerRight {
+  right: -10%;
+}
+.flowerLeft {
+  left: -10%;
+}
+
+.circleLeft {
+  left: 0;
+  position: absolute;
+}
+.circleRight {
+  right: 0;
+  top: 10%;
+  position: absolute;
+}
+.bgTimeLine {
+  background-color: #bbbd98;
+  filter: brightness(80%);
+}
+
+@media screen and (max-width: 768px) {
+  .circleRight {
+    top: 5%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .circleRight {
+    top: 3%;
+  }
+}

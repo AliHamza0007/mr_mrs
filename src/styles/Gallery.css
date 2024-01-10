@@ -1,0 +1,47 @@
+.cardGallery {
+  background: #eeeeee;
+  margin: 1px;
+  border: 3px solid rgb(138, 136, 136);
+  border-top: 0;
+  border-style: double !important;
+}
+.card:hover > .cardGallery {
+  background-color: transparent;
+  border: 0;
+}
+.cardGallery:hover {
+  background-color: transparent;
+  border: 0;
+}
+@keyframes zoomCardImg {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0.6;
+  }
+}
+.cardGalleryImg:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+  animation-duration: 1s;
+  animation-name: zoomCardImg;
+  visibility: visible;
+  transition: all 1s ease;
+}
+.btnAdd {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.card:hover > .btnAdd {
+  opacity: 1;
+  transition: all 1s ease;
+}

@@ -1,0 +1,64 @@
+.btnBookAttendance {
+  background-color: #fd5d5d;
+  color: white;
+  font-weight: bolder;
+
+  transition: all 0.5s ease-in;
+}
+.btnBookAttendance:hover {
+  background: rgb(132, 150, 138) !important;
+  color: white !important;
+  box-shadow: 0 0 0 0.25rem rgb(226, 140, 140) !important;
+
+  transition: all 0.5s ease-out;
+}
+
+.nav-link {
+  font-size: 1em;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-bottom: 5px solid white;
+}
+
+.nav-link:hover {
+  color: #fd5d5d;
+}
+
+.nav-link.active {
+  color: red !important;
+  border-bottom: 5px solid #fd5d5d !important;
+}
+
+.bgNav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar-brand {
+  color: gray;
+  cursor: pointer;
+}
+.navbar-toggler-icon {
+  color: #fd5d5d !important;
+  background-image: none !important;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.collapsing {
+  transition: 1s !important;
+}
+
+button[aria-expanded="true"] .fa-bars {
+  display: none;
+  transition: 1s;
+}
+button[aria-expanded="false"] .fa-times {
+  display: none;
+  transition: 1s;
+}

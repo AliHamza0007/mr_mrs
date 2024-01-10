@@ -1,0 +1,71 @@
+.cardBriGro {
+  border: 3px solid rgb(107, 106, 106);
+  border-style: double !important;
+}
+
+.CardBGImgLeft {
+  position: absolute;
+  left: -35%;
+  bottom: 0;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.CardBGImgRight {
+  position: absolute;
+  transform: rotate(-45deg);
+  right: -35%;
+  bottom: 0;
+  z-index: -1;
+}
+.CardBGBody {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card > .cardBriGro {
+  transition: all 1s ease-out;
+}
+.card:hover > .cardBriGro {
+  filter: brightness(50%);
+  transform: scale(1.1);
+  background: white;
+  transition: all 0.5s;
+}
+
+.btnCardIconBriGro {
+  background-color: rgb(245, 235, 235);
+  color: #fd5d5d;
+  display: inline-block;
+  border-radius: 0 !important;
+}
+.btnCardIconBriGro:hover {
+  background: #fd5d5d;
+  color: white;
+  transition: all 0.5s;
+}
+.btnCardIconBriGroDiv {
+  position: absolute;
+  right: 20px;
+  z-index: 5;
+  top: -100%;
+}
+@keyframes iconSocialDivBG {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+.card:hover > .btnCardIconBriGroDiv {
+  animation-name: iconSocialDivBG;
+  top: 0;
+  transition: all 0.5s ease-in;
+}
+.card > .btnCardIconBriGroDiv {
+  transition: all 1s ease-out;
+}

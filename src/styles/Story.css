@@ -1,0 +1,42 @@
+.bgGray {
+  background: #bbbd98;
+}
+.bgCard {
+  background-size: cover;
+  opacity: 0.5;
+  height: 600px;
+  z-index: 1;
+}
+.bgBorder {
+  border: 15px solid rgba(236, 79, 79, 0.5) !important;
+  border-style: double !important;
+}
+.borderDouble {
+  border: 3px solid gray;
+  border-style: double !important;
+  display: inline-block;
+  border-left: 0;
+  border-right: 0;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+}
+
+.leafleft {
+  position: absolute;
+  top: 40%;
+
+  opacity: 0.6;
+  transform: rotate(45deg);
+}
+.leafright {
+  position: absolute;
+  top: 40%;
+  opacity: 0.6;
+  right: 2%;
+  transform: rotate(-45deg);
+}

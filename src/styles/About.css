@@ -1,0 +1,31 @@
+.imgright {
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+.imgleft {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  transform: rotate(150deg);
+}
+
+/* About Us Css */
+.aboutUsBg {
+  background-color: #bbbd98;
+}
+.imgtop {
+  position: absolute;
+  right: -15px;
+  transform: rotate(270deg);
+  opacity: 0.5;
+  top: 12px;
+}
+
+.imgbottom {
+  position: absolute;
+  bottom: 12px;
+  left: -15px;
+  transform: rotate(90deg);
+  opacity: 0.5;
+}

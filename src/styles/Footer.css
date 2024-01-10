@@ -1,0 +1,38 @@
+.bgImgFooter {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("	https://demo.htmlcodex.com/3166/wedding-bootstrap-template/img/footer-bg.jpg")
+      center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  letter-spacing: 2px !important;
+  line-height: 35px !important;
+  color: #ffffff !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease-out;
+}
+.footer-link:hover {
+  color: rgb(231, 109, 109) !important;
+  font-size: 22px !important;
+  transition: all 0.2s ease-in;
+}
+.footerIcon {
+  background-color: rgb(245, 235, 235) !important;
+  color: #fd5d5d !important;
+  cursor: pointer;
+  margin: 5px;
+  padding: 15px 18px;
+  border-radius: 0 !important;
+  transition: all 0.5s ease-in;
+}
+.footerIcon:hover {
+  background: #fd5d5d !important;
+  color: white !important;
+  transition: all 0.5s ease-out;
+}

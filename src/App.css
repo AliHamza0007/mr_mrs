@@ -1,0 +1,37 @@
+@font-face {
+  font-family: great-vibes-h;
+  src: url("./assets/font/Great_Vibes/GreatVibes-Regular.ttf");
+}
+@font-face {
+  font-family: petit-formal-t;
+  src: url("./assets/font/Petit_Formal_Script/PetitFormalScript-Regular.ttf");
+}
+.ft {
+  font-family: petit-formal-t !important;
+  font-weight: bold;
+}
+.fh {
+  font-family: great-vibes-h !important;
+  font-weight: bold;
+}
+.cr {
+  color: #fd5d5d;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 45px;
+  right: 20px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 320px) {
+  .scroll-to-top-button {
+    bottom: 18%;
+    right: 3%;
+  }
+}
